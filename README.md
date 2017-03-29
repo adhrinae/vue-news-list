@@ -1,6 +1,10 @@
 # vuenews
 
-> A Vue.js project
+> A simple news list powered by [newsapi.org](https://newsapi.org)
+
+Followed instruction on [youtubue clip](https://www.youtube.com/watch?v=p-7Zi9xYt2M) by CodingTheSmartWay.com
+
+Note: There's some wrong syntax of ES6 in the video, so I reproduce them.
 
 ## Build Setup
 

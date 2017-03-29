@@ -1,8 +1,8 @@
 {
   "name": "vuenews",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "Dohyung Ahn <rinae@kiwiworks.kr>",
+  "description": "A Vue.js toy project",
+  "author": "Dohyung Ahn <emaren84@gmail>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
