@@ -35,7 +35,7 @@
     },
     methods: {
       updateSource (source) {
-        this.$http.get(`https://newsapi.org/v1/articles?source=${source}&apiKey=1f08c5e9cf2148cfb1e887ac2698195c`)
+        this.$http.get(`https://newsapi.org/v1/articles?source=${source}&apiKey=${process.env.NEWSAPI_KEY}`)
           .then(response => {
             this.articles = response.data.articles
           })

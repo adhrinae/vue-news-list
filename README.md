@@ -6,6 +6,17 @@ Followed instruction on [youtubue clip](https://www.youtube.com/watch?v=p-7Zi9xY
 
 Note: There's some wrong syntax of ES6 in the video, so I reproduce them.
 
+You MUST create `prod.env.js` file in `config` folder and set API Key.
+
+```javascript
+# config/prod.env.js
+
+module.exports = {
+  NODE_ENV: '"production"',
+  NEWSAPI_KEY: '"YOUR API KEY"'
+}
+```
+
 ## Build Setup
 
 ``` bash
